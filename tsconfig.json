@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "rootDir": "./source",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["./source/*"],
+      "@typing/*": ["./source/typing/*"],
+      "@events/*": ["./source/events/*"],
+      "@loaders/*": ["./source/loaders/*"],
+      "@commands/*": ["./source/commands/*"],
+    },
+    "moduleResolution": "node"
+  },
+  "include": ["source/**/*"],
+  "exclude": ["node_modules/*"]
+}
